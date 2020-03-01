@@ -28,6 +28,28 @@
   color: #61dafb;
 }
 
+.App-projects {
+  color: #73AD21;
+  font-size: medium;
+  text-align: left;
+}
+
+.App-errors {
+  color: palevioletred;
+  border-radius: 10px;
+  border: 1px solid #73AD21;
+  padding: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: small;
+  text-align: left;
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
